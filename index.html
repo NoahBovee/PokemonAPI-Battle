@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.cdnfonts.com/css/the-rifleman" rel="stylesheet" />
+
+    <title>Pokemon API</title>
+  </head>
+  <body>
+    <main>
+      <!-- box1 -->
+      <section class="box-one">
+        <div class="searchBox">
+          <input id="pokemonName" type="text" placeholder="Pokemon Name" />
+          <button id="search">🔍</button>
+          <button id="randomize">🔄️</button>
+        </div>
+
+        <div class="pokemonBox"></div>
+        <button class="attack-one">Attack 1</button>
+      </section>
+
+      <div class="versus">
+        <img src="./assets/pokeapivs.png" alt="" />
+      </div>
+
+      <!-- box2 -->
+      <section class="box-two">
+        <div class="searchBox2">
+          <input id="pokemonName2" type="text" placeholder="Pokemon Name" />
+          <button id="search2">🔍</button>
+          <button id="randomize2">🔄️</button>
+        </div>
+
+        <div class="pokemonBox2"></div>
+        <button class="attack-two">Attack 2</button>
+      </section>
+    </main>
+    <script src="./api.js" type="module"></script>
+    <script src="./api2.js" type="module"></script>
+    <script src="./script.js" type="module"></script>
+  </body>
+</html>
